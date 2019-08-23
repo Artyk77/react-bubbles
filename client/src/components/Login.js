@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import axios from 'axios'
+import axios from 'axios';
 
-const Login = () => {
   const Login = (props) => {
     const [user, setUser] = useState({username: '', password: ''})
 
